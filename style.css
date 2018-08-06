@@ -1,7 +1,20 @@
-.ruff_container{
+*{
+	overflow: hidden;
+}
+
+.animation_container{
 	width:1024px; 
 	height:576px; 
 	background-color:#5abfc8;
+}
+
+.button{
+	cursor: pointer;
+}
+
+.button:active{
+	top:15px;
+	width:114px;
 }
 
 
@@ -13,4 +26,15 @@
 	right:0;
 	bottom:0;
 	margin:auto; 
+}
+
+.invis_down{
+	opacity:0;
+	top:100%;
+}
+
+.appear_up{
+	opacity:1;
+	bottom:75%;
+	transition:all 0.8s;
 }
